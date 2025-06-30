@@ -1,48 +1,64 @@
-// import BirreteWhite from "../assets/images/icon-birrete-white.png";
-// import LogoSuPresenciaCooperativa from "../assets/images/logo-cooperativa-white.png";
+import BoehringerGreen from "../assets/images/footer/boehringer.png";
+import AcrossAcademy from "../assets/images/footer/across-academy.png";
+import Asociacion from "../assets/images/footer/asociacion-colombiana.png";
+import Asocolnef from "../assets/images/footer/asocolnef.png";
+import Cardiologia from "../assets/images/footer/cardiologia.png";
 
-// import "../styles/Footer.css";
+import "../styles/Footer.css";
 
 export const Footer = () => {
   return (
-    <footer>
-      <section>
-        <div className="footer-information">
-          <h2>Contáctanos por nuestros canales de atención:</h2>
-          <div>
-            <span className="footer-icon">
-              <img src="" />
-            </span>
-            <p>
-              PBX: <a href="tel:+576017460101">[601] 7460101</a>
-            </p>
-          </div>
-          <div>
-            <span className="footer-icon">
-              <img src="" />
-            </span>
-            <p>
-              WhatsApp:{" "}
-              <a
-                target="__blank"
-                href="https://api.whatsapp.com/send?phone=573208993195"
-              >
-                320 899 3195
-              </a>
-            </p>
-          </div>
-          <div>
-            <span className="footer-icon">
-              <img src="" />
-            </span>
-            <p>servicioalasociado@supresenciacooperativa.com</p>
-          </div>
+    <footer className="footer">
+      <div className="footer__main">
+        <h1 className="footer__title">#TuTurnoDeHacerHistoria</h1>
+        <p className="footer__subtitle">Invita Departamento Médico de</p>
+        <div className="footer__logos">
+          <img src={BoehringerGreen} alt="Boehringer Ingelheim" />
+          <img src={AcrossAcademy} alt="Across Academy" />
+          <img src={Asociacion} alt="Asociación Colombiana de Nefrología" />
+          <img src={Asocolnef} alt="Asocolnef" />
+          <img
+            src={Cardiologia}
+            alt="Sociedad Colombiana de Cardiología y Cirugía Cardiovascular"
+          />
         </div>
-        <div className="footer-logo">
-          <p>Organiza:</p>
-          <img src="" alt="Logo de Su Presencia Cooperativa" />
+        <div className="footer__legal">
+          <p>
+            "Material exclusivo para el cuerpo médico Colombiano. Material
+            sujeto a derechos de propiedad intelectual. Este material podría
+            contener conceptos u opiniones que son responsabilidad de los
+            autores y no comprometen las opiniones del laboratorio auspiciante.
+            Algunos materiales pueden mencionar productos, por favor tenga en
+            cuenta que la información de seguridad de los mismos puede cambiar,
+            consulte la información vigente en la Dirección Médica de Boehringer
+            Ingelheim S.A., Teléfono: (+601) 319 91 00, e-mail:
+            medfora.co@boehringer-ingelheim.com Dirección: Avenida Calle 116 No.
+            7-15 oficina 1401, Piso 14, Edificio Torre Cusezar Bogotá D.C.
+            Colombia."
+          </p>
+          <span className="footer__code">SC-CO-01650</span>
         </div>
-      </section>
+      </div>
+      <div className="footer__bottom">
+        <div className="footer__bottom-left">
+          <img
+            src={BoehringerGreen}
+            alt="Boehringer Ingelheim"
+            className="footer__logo"
+          />
+        </div>
+        <div className="footer__bottom-center">
+          <span>
+            © 2010-2024 Boehringer Ingelheim International GmbH. Todos los
+            derechos reservados.
+          </span>
+        </div>
+        <div className="footer__bottom-right">
+          <span className="footer__icon-placeholder">in</span>
+          <span className="footer__icon-placeholder">f</span>
+          <span className="footer__icon-placeholder">▶</span>
+        </div>
+      </div>
     </footer>
   );
 };
