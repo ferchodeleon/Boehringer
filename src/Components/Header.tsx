@@ -1,10 +1,9 @@
 import { useState } from "react";
-
-import "../styles/Header.css";
+import { useLocation } from "react-router-dom";
 
 import Logo from "../assets/images/logo.png";
-// import Separator from "../assets/images/separator.png";
-import { useLocation } from "react-router-dom";
+
+import "../styles/Header.css";
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

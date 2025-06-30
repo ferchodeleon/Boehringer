@@ -139,6 +139,15 @@
   .agenda-container {
     flex-direction: column;
     align-items: center;
+    padding: 3rem 0;
+  }
+
+  .agenda-header {
+    width: 70%;
+  }
+
+  .agenda-schedule {
+    width: 70%;
   }
 }
 

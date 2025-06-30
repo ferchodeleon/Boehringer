@@ -10,6 +10,7 @@
 }
 
 .speakers-carousel-title {
+  font-family: "June Expt Variable", sans-serif;
   font-size: 2.5rem;
   color: #fff;
   margin-bottom: 4rem;
@@ -123,14 +124,11 @@
     min-height: 480px;
   }
 
-  .carousel-card.left,
-  .carousel-card.right {
-    transform: translateX(-120%) scale(0.8);
-  }
-
-  .carousel-card.right {
-    transform: translateX(40%) scale(0.8);
-  }
+    .carousel-card.left,
+    .carousel-card.right,
+    .carousel-card.hidden {
+      display: none !important;
+    }
 }
 
 @media (max-width: 750px) {

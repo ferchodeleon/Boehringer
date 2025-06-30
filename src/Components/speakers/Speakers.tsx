@@ -108,7 +108,6 @@ const Speakers: React.FC = () => {
 
   return (
     <div id="speakers" className="speakers-carousel-container">
-      {/* //TODO: Cambio de fuente por June Expt Variable */}
       <div className="speakers-carousel-title">
         <h2>Speakers</h2>
       </div>

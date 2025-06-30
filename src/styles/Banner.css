@@ -1,0 +1,27 @@
+.banner-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* Mobile banner - shown by default */
+.banner-mobile {
+  display: block;
+}
+
+/* Desktop banner - hidden by default */
+.banner-desktop {
+  display: none;
+}
+
+/* Show desktop banner on tablets and larger screens (768px and up) */
+@media (min-width: 768px) {
+  .banner-mobile {
+    display: none;
+  }
+  
+  .banner-desktop {
+    display: block;
+  }
+}
