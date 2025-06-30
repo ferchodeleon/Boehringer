@@ -1,0 +1,177 @@
+/* Contenedor principal */
+.agenda-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 2rem 1rem;
+  background: #262c5e;
+  color: #fff;
+  font-family: 'Century Gothic', Arial, sans-serif;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  gap: 5rem;
+}
+
+.agenda-header {
+  width: 30%;
+}
+
+.agenda-header h1 {
+  font-family: 'june-expt-variable', sans-serif;
+  letter-spacing: 0.08em;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.agenda-header p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  color: #e0e0e0;
+}
+
+.agenda-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.agenda-tabs button {
+  padding: 0.7rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  background: #3be0c4;
+  color: #2e2a5a;
+  font-weight: bold;
+  font-size: 1.7rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+  opacity: 0.7;
+}
+
+.agenda-tabs button.active {
+  background: #6c4be7;
+  color: #fff;
+  opacity: 1;
+}
+
+.agenda-tabs-container-item-time {
+  font-size: .9rem;
+  margin-left: 1.4rem;
+  margin-top: .5rem;
+  color: #808080;
+  transition: color 0.2s;
+}
+
+.agenda-tabs-container button {
+  font-family: 'june-expt-variable', sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: .1rem;
+  font-weight: normal;
+}
+
+/* Cuando el botón está activo, el texto del tiempo también cambia a blanco */
+.agenda-tabs-container button.active + .agenda-tabs-container-item-time,
+.agenda-tabs-container button.active ~ .agenda-tabs-container-item-time {
+  color: #ffffff;
+}
+
+.agenda-schedule {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.agenda-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.5rem;
+  border: none;
+  padding-left: 0;
+  position: relative;
+  margin-bottom: 0.7rem;
+  padding-bottom: 0.7rem;
+  flex-wrap: wrap;
+}
+
+.agenda-time {
+  font-family: 'june-expt-variable', sans-serif;
+  letter-spacing: 0.08em;
+  min-width: 110px;
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.5;
+}
+
+.agenda-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.agenda-title {
+  font-family: 'june-expt-variable', sans-serif;
+  letter-spacing: 0.08em;
+  font-size: 1.2rem;
+  font-weight: 100;
+  color: #fff;
+  margin-bottom: 0.2rem;
+}
+
+.agenda-speakers {
+  font-size: 1rem;
+  color: #b0e6de;
+}
+
+.agenda-underline {
+  width: 100%;
+  height: 4px;
+  background: #00aa8e;
+  border-radius: 2px;
+  z-index: 1;
+}
+
+@media (max-width: 600px) {
+  .agenda-container {
+    padding: 1rem 0.2rem;
+    border-radius: 12px;
+  }
+  .agenda-header h1 {
+    font-size: 2rem;
+  }
+  .agenda-tabs button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+  .agenda-item {
+    gap: 0.7rem;
+    padding-left: 0.7rem;
+  }
+  .agenda-time {
+    min-width: 90px;
+    font-size: 1rem;
+  }
+  .agenda-title {
+    font-size: 1rem;
+  }
+  .agenda-speakers {
+    font-size: 0.95rem;
+  }
+}
+
+.agenda-items-animated {
+  transition: opacity 0.35s;
+  width: 80%;
+}
+.fade-in {
+  opacity: 1;
+}
+.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}

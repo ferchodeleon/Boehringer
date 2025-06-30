@@ -1,0 +1,202 @@
+.data-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #262C5E;
+  margin: 0;
+}
+
+.data-title {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
+
+.data-title-line {
+  width: 20%;
+  height: 7px;
+  background-color: var(--green);
+}
+
+.data-title-line.right {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.data-title-line.left {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.data-title h2 {
+  width: 60%;
+  text-align: center;
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  font-family: "Frutiger-Light", sans-serif;
+}
+
+.data-content-1, .data-content-2 {
+  color: #fff;
+  margin: 0 15%;
+}
+
+.data-content-1 {
+  font-size: 1.5rem;
+  font-family: "CenturyGothic", sans-serif;
+  font-weight: 200;
+  margin-bottom: 2rem;
+  text-align: justify;
+}
+
+.data-content-2 {
+  font-size: 1.5rem;
+  font-family: "Frutiger-Light", sans-serif;
+  font-weight: bold;
+  margin: 2rem 20%;
+  text-align: center;
+}
+
+.data-ubication-container {
+  background: url("../assets/images/hotel-hilton.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  width: 60rem;
+  height: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10rem;
+}
+
+.data-ubication-date {
+  color: #fff;
+}
+
+.data-ubication-date p {
+  margin: 0 15px;
+}
+
+.data-ubication-date__month {
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.data-ubication-date__day {
+  font-family: "CenturyGothic", sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.data-ubication-date__day span {
+  display: inline-block;
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+.data-ubication-date__line {
+  display: block;
+  width: 100%;
+  height: 5px;
+  background-color: var(--green);
+  border-radius: 10px;
+}
+
+.data-ubication-icon {
+  width: 5rem;
+  height: 5rem;
+}
+
+.data-ubication-icon img {
+  width: 100%;
+  height: 100%;
+}
+
+.data-ubication-site {
+  text-align: center;
+  color: #fff;
+  font-family: "CenturyGothic", sans-serif;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.data-ubication-site p:nth-child(1) {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+@media (max-width: 1024px) {
+  .data-title h2 {
+    font-size: 2.5rem;
+  }
+
+    .data-content-1, .data-content-2 {
+      font-size: 1.3rem;
+    }
+
+  .data-ubication-container {
+    width: 90%;
+    height: 13rem;
+    margin-bottom: 5rem;
+  }
+
+  .data-ubication-date__day {
+    font-size: 2.5rem;
+  }
+
+  .data-ubication-site p:nth-child(1) {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+
+.data-content-1,
+  .data-content-2 {
+    margin: 0 10%;
+  }
+
+  .data-content-2 {
+    margin: 2rem 15%;
+  }
+  
+  .data-ubication-container {
+    justify-content: space-around;
+  }
+
+  .data-ubication-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .data-ubication-date__month {
+    font-size: 1.3rem;
+  }
+
+  .data-ubication-date__day {
+    font-size: 1.2rem;
+  }
+
+  .data-ubication-site {
+    font-size: .7rem;
+  }
+
+  .data-ubication-site p:nth-child(1) {
+    font-size: 1.4rem;
+  }
+}
