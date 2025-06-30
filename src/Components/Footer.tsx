@@ -3,6 +3,10 @@ import AcrossAcademy from "../assets/images/footer/across-academy.png";
 import Asociacion from "../assets/images/footer/asociacion-colombiana.png";
 import Asocolnef from "../assets/images/footer/asocolnef.png";
 import Cardiologia from "../assets/images/footer/cardiologia.png";
+import BoehringerWhite from "../assets/images/footer/boehringer-white.png";
+import Facebook from "../assets/images/footer/facebook.png";
+import LinkedIn from "../assets/images/footer/linkedin.png";
+import YouTube from "../assets/images/footer/youtube.png";
 
 import "../styles/Footer.css";
 
@@ -14,9 +18,13 @@ export const Footer = () => {
         <p className="footer__subtitle">Invita Departamento Médico de</p>
         <div className="footer__logos">
           <img src={BoehringerGreen} alt="Boehringer Ingelheim" />
+          <span className="footer__logos-line"></span>
           <img src={AcrossAcademy} alt="Across Academy" />
+          <span className="footer__logos-line"></span>
           <img src={Asociacion} alt="Asociación Colombiana de Nefrología" />
+          <span className="footer__logos-line"></span>
           <img src={Asocolnef} alt="Asocolnef" />
+          <span className="footer__logos-line"></span>
           <img
             src={Cardiologia}
             alt="Sociedad Colombiana de Cardiología y Cirugía Cardiovascular"
@@ -42,7 +50,7 @@ export const Footer = () => {
       <div className="footer__bottom">
         <div className="footer__bottom-left">
           <img
-            src={BoehringerGreen}
+            src={BoehringerWhite}
             alt="Boehringer Ingelheim"
             className="footer__logo"
           />
@@ -54,9 +62,15 @@ export const Footer = () => {
           </span>
         </div>
         <div className="footer__bottom-right">
-          <span className="footer__icon-placeholder">in</span>
-          <span className="footer__icon-placeholder">f</span>
-          <span className="footer__icon-placeholder">▶</span>
+          <span className="footer__icon-placeholder">
+            <img src={Facebook} alt="Facebook" />
+          </span>
+          <span className="footer__icon-placeholder">
+            <img src={LinkedIn} alt="Linkedin" />
+          </span>
+          <span className="footer__icon-placeholder">
+            <img src={YouTube} alt="Youtube" />
+          </span>
         </div>
       </div>
     </footer>
