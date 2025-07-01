@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 import Card from "./Card";
 
-import karenFeriz from "../../assets/images/speakers/karen-feriz.png";
-import carlosSanchez from "../../assets/images/speakers/carlos-sanchez.png";
-import juanFigueroa from "../../assets/images/speakers/Juan-F-Figueroa.png";
-import SalomoonDaguer from "../../assets/images/speakers/Salomoon-Daguer.png";
-import JonthFlechas from "../../assets/images/speakers/Jonth-Flechas.png";
-import GilbertoCastillo from "../../assets/images/speakers/GilbertoCastillo.png";
-import MauricioMejiia from "../../assets/images/speakers/MauricioMejiia.png";
-import JuanEstebanGomez from "../../assets/images/speakers/juanEstebanGomez.png";
-import fernandoRoseroMera from "../../assets/images/speakers/fernandoRoseroMera.png";
-import kateirContreras from "../../assets/images/speakers/kateirContreras.png";
-import vivianaQuintero from "../../assets/images/speakers/vivianaQuintero.png";
-import arrowRight from "../../assets/images/right.png";
-import arrowLeft from "../../assets/images/left.png";
+import karenFeriz from "../../assets/images/speakers/karen-feriz.webp";
+import carlosSanchez from "../../assets/images/speakers/carlos-sanchez.webp";
+import juanFigueroa from "../../assets/images/speakers/Juan-F-Figueroa.webp";
+import SalomoonDaguer from "../../assets/images/speakers/Salomoon-Daguer.webp";
+import JonthFlechas from "../../assets/images/speakers/Jonth-Flechas.webp";
+import GilbertoCastillo from "../../assets/images/speakers/GilbertoCastillo.webp";
+import MauricioMejiia from "../../assets/images/speakers/MauricioMejiia.webp";
+import JuanEstebanGomez from "../../assets/images/speakers/juanEstebanGomez.webp";
+import fernandoRoseroMera from "../../assets/images/speakers/fernandoRoseroMera.webp";
+import kateirContreras from "../../assets/images/speakers/kateirContreras.webp";
+import vivianaQuintero from "../../assets/images/speakers/vivianaQuintero.webp";
+import arrowRight from "../../assets/images/right.webp";
+import arrowLeft from "../../assets/images/left.webp";
 
 import "../../styles/speakers/Speakers.css";
 

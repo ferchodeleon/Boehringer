@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../styles/Agent.css";
-import arrowUp from "../assets/images/up.png";
+import arrowUp from "../assets/images/up.webp";
 
 const morningSchedule = [
   {

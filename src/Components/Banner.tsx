@@ -1,5 +1,5 @@
-import BannerDesktop from "../assets/images/banner-desktop2.png";
-import BannerMobile from "../assets/images/banner-mobile.png";
+import BannerDesktop from "../assets/images/banner-desktop2.webp";
+import BannerMobile from "../assets/images/banner-mobile.webp";
 
 import "../styles/Banner.css";
 

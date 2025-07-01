@@ -1,5 +1,5 @@
 import "../styles/Data.css";
-import dataUbicationIcon from "../assets/images/icon-ubication.png";
+import dataUbicationIcon from "../assets/images/icon-ubication.webp";
 
 const Data = () => {
   return (

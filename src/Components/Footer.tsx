@@ -1,12 +1,12 @@
-import BoehringerGreen from "../assets/images/footer/boehringer.png";
-import AcrossAcademy from "../assets/images/footer/across-academy.png";
-import Asociacion from "../assets/images/footer/asociacion-colombiana.png";
-import Asocolnef from "../assets/images/footer/asocolnef.png";
-import Cardiologia from "../assets/images/footer/cardiologia.png";
-import BoehringerWhite from "../assets/images/footer/boehringer-white.png";
-import Facebook from "../assets/images/footer/facebook.png";
-import LinkedIn from "../assets/images/footer/linkedin.png";
-import YouTube from "../assets/images/footer/youtube.png";
+import BoehringerGreen from "../assets/images/footer/boehringer.webp";
+import AcrossAcademy from "../assets/images/footer/across-academy.webp";
+import Asociacion from "../assets/images/footer/asociacion-colombiana.webp";
+import Asocolnef from "../assets/images/footer/asocolnef.webp";
+import Cardiologia from "../assets/images/footer/cardiologia.webp";
+import BoehringerWhite from "../assets/images/footer/boehringer-white.webp";
+import Facebook from "../assets/images/footer/facebook.webp";
+import LinkedIn from "../assets/images/footer/linkedin.webp";
+import YouTube from "../assets/images/footer/youtube.webp";
 
 import "../styles/Footer.css";
 
