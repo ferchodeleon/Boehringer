@@ -8,7 +8,7 @@ import SalomoonDaguer from "../../assets/images/speakers/Salomoon-Daguer.png";
 import JonthFlechas from "../../assets/images/speakers/Jonth-Flechas.png";
 import GilbertoCastillo from "../../assets/images/speakers/GilbertoCastillo.png";
 import MauricioMejiia from "../../assets/images/speakers/MauricioMejiia.png";
-import JuanEstebanGomez from "../../assets/images/speakers/JuanEstebanGomez.png";
+import JuanEstebanGomez from "../../assets/images/speakers/juanEstebanGomez.png";
 import fernandoRoseroMera from "../../assets/images/speakers/fernandoRoseroMera.png";
 import kateirContreras from "../../assets/images/speakers/kateirContreras.png";
 import vivianaQuintero from "../../assets/images/speakers/vivianaQuintero.png";
