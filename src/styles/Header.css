@@ -148,6 +148,10 @@
     width: 100%;
   }
 
+  .header-logo-text>img {
+    width: 12rem;
+  }
+
   .header-logo-text {
     display: flex;
     justify-content: space-between;
@@ -171,7 +175,7 @@
     display: block;
     margin-right: 3rem;
     z-index: 4;
-    right: 30px;
+    right: 0;
     width: 88px;
     height: 88px;
     /* background: url("../assets/icons/menu.svg"); */

@@ -35,9 +35,9 @@ const speakersData = [
   {
     photo: juanFigueroa,
     name: "Dr. Juan F. Figueroa",
-    occupation: "Médico internista y cardiólogo",
+    occupation: "Médico Cardiólogo",
     description:
-      "Máster en ecocardiografía clínica y resonancia cardíaca.Candidato a Máster de Nutrición clínica y alimentación  Universidad de Barcelona. Estudios avanzados en insuficiencia cardiaca (PUB). Presidente del capítulo de Enfermedad Coronaria SCC. Coordinador general del centro de cuidado de infarto agudo de miocardio FSFB. Profesor de la Universidad de los Andes, Universidad del Rosario y  Universidad el Bosque.",
+      "Máster en ecocardiografía clínica y resonancia cardíaca. \n Candidato a Máster de Nutrición clínica y alimentación  Universidad de Barcelona. \n Presidente del capítulo de Enfermedad Coronaria SCC. \n Profesor de la universidad de la Universidad de los Andes, Universidad del Rosario y  Universidad el Bosque.",
   },
   {
     photo: SalomoonDaguer,
@@ -49,9 +49,10 @@ const speakersData = [
   {
     photo: JonthFlechas,
     name: "Dr. Jonth Flechas",
-    occupation: "Médico internista y cirujano",
+    occupation:
+      "Médico Internista y medico general de la Fundación universitaria Juan N Corpas.",
     description:
-      "Fundación universitaria Juan N Corpas. Especialista en Medicina Interna Fundación Universitaria Juan N Corpas. Especialista Nefrología Fundación Universitaria Ciencias de la Salud. Magister Gerencia servicios de salud Universidad Nacional de Colombia. Nefrólogo clínico y del grupo de trasplante renal Fundación Clínica Shaio. Docente adscrito programa nefrología Fundación Universitaria Ciencias de la Salud Director médico clínica cuidado renal Dávita hospital San José Bogotá. Miembro ASOCOLNEF - SLANH - ERA.",
+      "Especialista Nefrología Fundación Universitaria Ciencias de la Salud.\nMagister Gerencia servicios de salud Universidad Nacional de Colombia.\nNefrólogo clínico y del grupo de trasplante renal Fundación Clínica Shaio.\nDocente adscrito programa nefrología FUCS, médico clínica cuidado renal Dávita hospital San José Bogotá.",
   },
   {
     photo: GilbertoCastillo,

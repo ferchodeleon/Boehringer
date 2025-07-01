@@ -135,6 +135,20 @@
   z-index: 1;
 }
 
+.agenda-items-animated {
+  transition: opacity 0.35s;
+  width: 80%;
+}
+
+.fade-in {
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0;
+  pointer-events: none;
+}
+
 @media (max-width: 1024px) {
   .agenda-container {
     flex-direction: column;
@@ -154,7 +168,6 @@
 @media (max-width: 600px) {
   .agenda-container {
     padding: 1rem 0.2rem;
-    border-radius: 12px;
   }
   .agenda-header h1 {
     font-size: 2rem;
@@ -177,16 +190,8 @@
   .agenda-speakers {
     font-size: 0.95rem;
   }
-}
 
-.agenda-items-animated {
-  transition: opacity 0.35s;
-  width: 80%;
-}
-.fade-in {
-  opacity: 1;
-}
-.fade-out {
-  opacity: 0;
-  pointer-events: none;
+  .agenda-items-animated {
+    width: 100%;
+  }
 }

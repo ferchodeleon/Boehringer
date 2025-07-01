@@ -23,7 +23,14 @@ const Card: React.FC<CardProps> = ({
         {/* //TODO: Cambiar a June Expt Variable */}
         <h3 className="speaker-card__name">{name}</h3>
         <p className="speaker-card__occupation">{occupation}</p>
-        <p className="speaker-card__description">{description}</p>
+        <p className="speaker-card__description">
+          {description.split("\n").map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              {index < description.split("\n").length - 1 && <br />}
+            </React.Fragment>
+          ))}
+        </p>
       </div>
     </div>
   );
