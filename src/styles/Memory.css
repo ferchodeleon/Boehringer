@@ -1,0 +1,78 @@
+.memory-page {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #2a2967 0%, #3b2e6e 100%);
+}
+
+.memory-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  border-radius: 24px;
+  background: rgba(30, 28, 80, 0.7);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+}
+
+.memory-title {
+  font-size: 5rem;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 3px #fff;
+  text-stroke: 3px #fff;
+  margin-bottom: 2rem;
+  font-family: 'Century Gothic', Arial, sans-serif;
+  text-align: left;
+}
+
+.memory-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.memory-icon {
+  width: 90px;
+  height: auto;
+  margin-top: 0.5rem;
+}
+
+.memory-text {
+  flex: 1;
+}
+
+.memory-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-family: 'Century Gothic', Arial, sans-serif;
+}
+
+.memory-description {
+  color: #fff;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-family: 'Century Gothic', Arial, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+@media (max-width: 700px) {
+  .memory-title {
+    font-size: 2.5rem;
+    -webkit-text-stroke: 2px #fff;
+    text-stroke: 2px #fff;
+  }
+  .memory-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  .memory-icon {
+    width: 70px;
+  }
+  .memory-section {
+    padding: 2rem 0.5rem;
+  }
+}

@@ -28,7 +28,7 @@ export const Header = () => {
       <nav className={`header-nav header-menu ${isOpen}`}>
         <ul>
           <li>
-            <a href="#inicio" onClick={onCloseMenu}>
+            <a href="/#inicio" onClick={onCloseMenu}>
               Inicio
             </a>
           </li>
@@ -46,7 +46,7 @@ export const Header = () => {
           </li>
           <li className="separator" aria-hidden="true"></li>
           <li>
-            <a href="#memorias" onClick={onCloseMenu}>
+            <a href="/memory" onClick={onCloseMenu}>
               Memorias
             </a>
           </li>
