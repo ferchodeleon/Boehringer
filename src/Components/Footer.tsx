@@ -1,8 +1,8 @@
-import BoehringerGreen from "../assets/images/footer/boehringer.webp";
-import AcrossAcademy from "../assets/images/footer/across-academy.webp";
-import Asociacion from "../assets/images/footer/asociacion-colombiana.webp";
-import Asocolnef from "../assets/images/footer/asocolnef.webp";
-import Cardiologia from "../assets/images/footer/cardiologia.webp";
+import BoehringerGreen from "../assets/images/footer/boehringer.png";
+import AcrossAcademy from "../assets/images/footer/across-academy.png";
+import Asociacion from "../assets/images/footer/asociacion-colombiana.png";
+import Asocolnef from "../assets/images/footer/asocolnef.png";
+import Cardiologia from "../assets/images/footer/cardiologia.png";
 import BoehringerWhite from "../assets/images/footer/boehringer-white.webp";
 import Facebook from "../assets/images/footer/facebook.webp";
 import LinkedIn from "../assets/images/footer/linkedin.webp";
@@ -15,7 +15,7 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer__main">
         <h1 className="footer__title">#TuTurnoDeHacerHistoria</h1>
-        <p className="footer__subtitle">Invita Departamento Médico de</p>
+        <p className="footer__subtitle">INVITA: Departamento médico de</p>
         <div className="footer__logos">
           <img src={BoehringerGreen} alt="Boehringer Ingelheim" />
           <span className="footer__logos-line"></span>

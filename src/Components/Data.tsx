@@ -18,14 +18,6 @@ const Data = () => {
           momentos que quedarán grabados en la memoria de todos los asistentes.
         </p>
       </div>
-      {/* //TODO: Cambio de fuente por June Expt Variable */}
-      <div className="data-content-2">
-        <p>
-          Prepárese para vivir una experiencia de película, donde cada charla,
-          cada caso, y cada decisión será parte de un gran historia que solo se
-          escribirá una vez: ese día.
-        </p>
-      </div>
 
       <div className="data-ubication-container">
         <div className="data-ubication-date">

@@ -35,16 +35,16 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 2.5rem;
+  gap: 2rem;
   width: 80%;
   background: #fff;
-  padding: 2rem 3rem;
+  padding: 1.5rem;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
 }
 
 .footer__logos img {
-  height: 40px;
+  height: 120px;
   object-fit: cover;
   object-position: center;
   background: transparent;
@@ -129,7 +129,7 @@
   }
 
   .footer__logos img {
-    height: 30px;
+    height: 100px;
   }
 
 
@@ -173,7 +173,7 @@
   }
 
   .footer__logos img {
-    height: 20px;
+    height: 80px;
   }
 
   .footer__legal {

@@ -17,7 +17,7 @@ const morningSchedule = [
   {
     time: "08:50 a.m - 09:30 a.m",
     title: "Tras la cortina de la TFG para evaluar la función renal",
-    speakers: "Dr. Jhoni Flechas",
+    speakers: "Dr. Jonth Flechas",
   },
   {
     time: "09:30 a.m - 10:00 a.m",
@@ -27,7 +27,7 @@ const morningSchedule = [
   {
     time: "10:00 a.m - 10:45 a.m",
     title: "Falla cardíaca y renal aguda: tips and tricks",
-    speakers: "Dr. Jhoni Flechas y Dra. Viviana Quintero",
+    speakers: "Dr. Jonth Flechas y Dra. Viviana Quintero",
   },
   {
     time: "10:45 a.m - 11:00 a.m",
@@ -40,7 +40,7 @@ const morningSchedule = [
     speakers: "Dr. Carlos Sánchez y Dra. Karen Feriz",
   },
   {
-    time: "11:40 a.m - 12:30 p.m",
+    time: "11:45 a.m - 12:30 p.m",
     title:
       "Abordaje integral de la fragilidad y polifarmacia en el paciente CRM: desafíos y estrategias",
     speakers: "Dra. Viviana Quintero, Dra. Karen Feriz y Dra. Kateir Contreras",
@@ -70,7 +70,7 @@ const afternoonSchedule = [
   },
   {
     time: "03:15 p.m - 03:50 p.m",
-    title: "Del consultorio a la cocina: claves nutricionales en el paciente.",
+    title: "Del consultorio a la cocina: claves nutricionales en el paciente",
     speakers: "Dr. Juan Francisco Figueroa",
   },
   {
@@ -115,7 +115,7 @@ const Agend: React.FC = () => {
         <p>
           Prepárate para vivir cada escena de este gran día en el Hospital
           Universitario INNOVA. Aquí te compartimos el itinerario de esta
-          jornada de película, donde tú eres parte del elenco principal.
+          jornada.
         </p>
       </div>
       <div className="agenda-schedule">

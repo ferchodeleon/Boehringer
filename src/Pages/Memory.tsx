@@ -12,9 +12,9 @@ const Memory = () => {
           <div className="memory-text">
             <h2 className="memory-subtitle">Rodaje en proceso</h2>
             <p className="memory-description">
-              Muy pronto en este espacio podrás revivir los mejores momentos.
-              Prepárate para ver las escenas, fotografías y protagonistas que
-              hicieron parte de INNOVA HOSPITAL. ¡Espéralo aquí!
+              Espere en este espacio revivir los mejores momentos del evento,
+              acceder a los videos y presentaciones de cada conferencia y
+              descargar los highlight con los puntos clave de cada tema.
             </p>
           </div>
         </div>

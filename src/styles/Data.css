@@ -47,7 +47,7 @@
   font-family: "Frutiger-Light", sans-serif;
 }
 
-.data-content-1, .data-content-2 {
+.data-content-1 {
   color: #fff;
   margin: 0 15%;
 }
@@ -58,14 +58,6 @@
   font-weight: 200;
   margin-bottom: 2rem;
   text-align: justify;
-}
-
-.data-content-2 {
-  font-size: 1.5rem;
-  font-family: "Frutiger-Light", sans-serif;
-  font-weight: bold;
-  margin: 2rem 20%;
-  text-align: center;
 }
 
 .data-ubication-container {
@@ -145,7 +137,7 @@
     font-size: 2.5rem;
   }
 
-    .data-content-1, .data-content-2 {
+    .data-content-1 {
       font-size: 1.3rem;
     }
 
@@ -166,15 +158,10 @@
 
 @media (max-width: 800px) {
 
-.data-content-1,
-  .data-content-2 {
+.data-content-1 {
     margin: 0 10%;
   }
 
-  .data-content-2 {
-    margin: 2rem 15%;
-  }
-  
   .data-ubication-container {
     justify-content: space-around;
   }
