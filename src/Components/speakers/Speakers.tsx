@@ -63,7 +63,7 @@ const speakersData = [
   {
     photo: MauricioMejiia,
     name: "Dr. Mauricio Mejía",
-    occupation: "Médico y reabilitador deportivo",
+    occupation: "Médico y rehabilitador deportivo",
     description:
       "Especialista en medicina del deporte. Jefe y fundador del servicio de medicina deportiva y rehabilitación enfermedades inmunomediadas Clínica los nogales, Bogotá. Jefe del departamento Médico de carrera ultradistancia Desert Marathon, Guajira, Colombia.",
   },
