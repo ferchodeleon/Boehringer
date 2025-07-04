@@ -17,18 +17,31 @@ export const Footer = () => {
         <h1 className="footer__title">#TuTurnoDeHacerHistoria</h1>
         <p className="footer__subtitle">INVITA: Departamento médico de</p>
         <div className="footer__logos">
-          <img src={BoehringerGreen} alt="Boehringer Ingelheim" />
-          <span className="footer__logos-line"></span>
-          <img src={AcrossAcademy} alt="Across Academy" />
-          <span className="footer__logos-line"></span>
-          <img src={Asociacion} alt="Asociación Colombiana de Nefrología" />
-          <span className="footer__logos-line"></span>
-          <img src={Asocolnef} alt="Asocolnef" />
-          <span className="footer__logos-line"></span>
-          <img
-            src={Cardiologia}
-            alt="Sociedad Colombiana de Cardiología y Cirugía Cardiovascular"
-          />
+          <div className="footer__logos-section">
+            <p>Invita Departamento Médico de:</p>
+            <div className="footer__logos-section-logos">
+              <img src={BoehringerGreen} alt="Boehringer Ingelheim" />
+              <span className="footer__logos-line"></span>
+              <img src={AcrossAcademy} alt="Across Academy" />
+            </div>
+          </div>
+          <div className="footer__logos-section">
+            <p>Avalado por:</p>
+            <div className="footer__logos-section-logos">
+              <img
+                className="footer__logos-section-small"
+                src={Asociacion}
+                alt="Asociación Colombiana de Nefrología"
+              />
+              <span className="footer__logos-line"></span>
+              <img src={Asocolnef} alt="Asocolnef" />
+              <span className="footer__logos-line"></span>
+              <img
+                src={Cardiologia}
+                alt="Sociedad Colombiana de Cardiología y Cirugía Cardiovascular"
+              />
+            </div>
+          </div>
         </div>
         <div className="footer__legal">
           <p>
