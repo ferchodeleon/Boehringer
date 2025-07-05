@@ -8,7 +8,7 @@ const Memory = () => {
       <section className="memory-section">
         <h1 className="memory-title">Memorias</h1>
         <div className="memory-content">
-          <img src={MemoryImage} alt="Cámara rodaje" className="memory-icon" />
+          <img className="memory-icon" src={MemoryImage} alt="Cámara rodaje" />
           <div className="memory-text">
             <h2 className="memory-subtitle">Rodaje en proceso</h2>
             <p className="memory-description">

@@ -7,33 +7,31 @@
 }
 
 .memory-section {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 3rem 2rem;
-  border-radius: 24px;
-  background: rgba(30, 28, 80, 0.7);
-  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
 }
 
 .memory-title {
-  font-size: 5rem;
-  font-weight: 700;
+  font-family: 'june-expt-variable', Arial, sans-serif;
+  font-size: 7rem;
+  font-weight: 500;
   color: transparent;
+  letter-spacing: 5px;
   -webkit-text-stroke: 3px #fff;
-  text-stroke: 3px #fff;
-  margin-bottom: 2rem;
-  font-family: 'Century Gothic', Arial, sans-serif;
-  text-align: left;
+  margin-bottom: 4rem;
+  text-align: center;
 }
 
 .memory-content {
   display: flex;
   align-items: flex-start;
+  align-items: center;
   gap: 2rem;
 }
 
 .memory-icon {
-  width: 90px;
+  width: 150px;
   height: auto;
   margin-top: 0.5rem;
 }
@@ -44,13 +42,16 @@
 
 .memory-subtitle {
   font-size: 2rem;
-  font-weight: 700;
+  font-family: 'june-expt-variable', Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
   color: #fff;
   margin-bottom: 0.5rem;
-  font-family: 'Century Gothic', Arial, sans-serif;
+  margin-left: 1rem;
 }
 
 .memory-description {
+  max-width: 750px;
   color: #fff;
   font-size: 1.1rem;
   line-height: 1.5;
@@ -70,7 +71,7 @@
     gap: 1.5rem;
   }
   .memory-icon {
-    width: 70px;
+    width: 100px;
   }
   .memory-section {
     padding: 2rem 0.5rem;
