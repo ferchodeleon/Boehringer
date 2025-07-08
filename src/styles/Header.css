@@ -103,7 +103,7 @@
   border: none;
   width: 48px;
   height: 48px;
-  margin-left: 24px;
+  /* margin-left: 24px; */
   cursor: pointer;
   position: relative;
 }
@@ -154,7 +154,7 @@
 
   .header-logo-text {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
   }
@@ -173,7 +173,7 @@
 
   .burger {
     display: block;
-    margin-right: 3rem;
+    /* margin-right: 3rem; */
     z-index: 4;
     right: 0;
     width: 88px;
@@ -313,6 +313,10 @@
 } */
 
 @media (max-width: 500px) {
+
+  .header-logo-text {
+    margin-left: 0;
+  }
 
   .header-menu nav ul a li {
     font-size: 1rem;

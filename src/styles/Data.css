@@ -187,3 +187,14 @@
     font-size: 1.4rem;
   }
 }
+
+@media (max-width: 500px) {
+  .data-ubication-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .data-ubication-site {
+    font-size: .6rem;
+  }
+}

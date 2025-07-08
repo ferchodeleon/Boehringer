@@ -4,9 +4,6 @@ import Asociacion from "../assets/images/footer/asociacion-colombiana.svg";
 import Asocolnef from "../assets/images/footer/asocolnef.svg";
 import Cardiologia from "../assets/images/footer/cardiologia.svg";
 import BoehringerWhite from "../assets/images/footer/boehringer-white.webp";
-import Facebook from "../assets/images/footer/facebook.webp";
-import LinkedIn from "../assets/images/footer/linkedin.webp";
-import YouTube from "../assets/images/footer/youtube.webp";
 
 import "../styles/Footer.css";
 
@@ -77,7 +74,7 @@ export const Footer = () => {
             derechos reservados.
           </span>
         </div>
-        <div className="footer__bottom-right">
+        {/* <div className="footer__bottom-right">
           <span className="footer__icon-placeholder">
             <img src={Facebook} alt="Facebook" />
           </span>
@@ -87,7 +84,7 @@ export const Footer = () => {
           <span className="footer__icon-placeholder">
             <img src={YouTube} alt="Youtube" />
           </span>
-        </div>
+        </div> */}
       </div>
     </footer>
   );

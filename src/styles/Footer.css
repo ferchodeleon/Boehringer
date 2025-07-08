@@ -97,7 +97,7 @@
 .footer__bottom {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   background: #002d7c;
   padding: 1.2rem 2rem 1.2rem 2rem;
 }
@@ -108,8 +108,6 @@
 
 .footer__bottom-center {
   font-size: 1rem;
-  text-align: center;
-  flex: 1;
 }
 
 .footer__bottom-right {
@@ -211,7 +209,7 @@
   .footer__legal {
     padding: .5rem;
     font-size: 0.6rem;
-    width: 100%;
+    width: 95%;
   }
 
   .footer__bottom {

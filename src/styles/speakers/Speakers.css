@@ -126,15 +126,14 @@
 
 @media (max-width: 900px) {
   .speakers-carousel-container {
-    max-width: 98vw;
     min-height: 480px;
   }
 
-    .carousel-card.left,
-    .carousel-card.right,
-    .carousel-card.hidden {
-      display: none !important;
-    }
+  .carousel-card.left,
+  .carousel-card.right,
+  .carousel-card.hidden {
+    display: none !important;
+  }
 }
 
 @media (max-width: 750px) {

@@ -2,7 +2,7 @@
 .agenda-container {
   display: flex;
   justify-content: center;
-  width: 100%;
+  /* width: 100%; */
   padding: 2rem 1rem;
   background: #262c5e;
   color: #fff;
@@ -176,9 +176,12 @@
     padding: 0.5rem 1rem;
     font-size: 1rem;
   }
+
+  .agenda-schedule {
+    width: 75%;
+  }
   .agenda-item {
     gap: 0.7rem;
-    padding-left: 0.7rem;
   }
   .agenda-time {
     min-width: 90px;

@@ -77,3 +77,9 @@
     padding: 2rem 0.5rem;
   }
 }
+
+@media (max-width: 500px) {
+  .memory-description {
+    margin-left: 1rem;
+  }
+}
