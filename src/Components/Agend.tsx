@@ -21,7 +21,7 @@ const morningSchedule = [
   },
   {
     time: "09:30 a.m - 10:00 a.m",
-    title: "IsglT2: donde sí, donde no y puntos medios",
+    title: "ISGLT2: donde sí, donde no y puntos medios",
     speakers: "Dr. Carlos Sánchez",
   },
   {

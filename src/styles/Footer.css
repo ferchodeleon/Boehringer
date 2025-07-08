@@ -51,19 +51,23 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .footer__logos-section-logos img {
-  width: 135px;
-  height: 110px;
-  object-fit: cover;
+  width: 20%;
+  height: 20%;
+  object-fit: contain;
   object-position: center;
   background: transparent;
 }
 
+.footer__logos-section-asocolnef {
+  width: 23% !important;
+}
+
 .footer__logos-section-small {
-  width: 90px !important;
+  width: 80px !important;
   height: auto !important;
 }
 
@@ -177,6 +181,15 @@
 }
 
 @media (max-width: 750px) {
+
+  .footer__main{
+    padding: 0;
+  }
+
+  .footer__logos-section-logos {
+    gap: 1rem;
+  }
+
   .footer__title {
     font-size: 1.5rem;
   }
