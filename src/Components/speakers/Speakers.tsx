@@ -49,7 +49,7 @@ const speakersData = [
   {
     photo: JonthFlechas,
     name: "Dr. Jonth Flechas",
-    occupation: "Médico internista y Médico general",
+    occupation: "Médico internista y cirujano",
     description:
       "Especialista Nefrología Fundación Universitaria Ciencias de la Salud.\nMagister Gerencia servicios de salud Universidad Nacional de Colombia.\nNefrólogo clínico y del grupo de trasplante renal Fundación Clínica Shaio.\nDocente adscrito programa nefrología FUCS, Médico Clínica cuidado renal Dávita Hospital San José Bogotá.",
   },
