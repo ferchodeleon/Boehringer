@@ -21,14 +21,14 @@ const speakersData = [
   {
     photo: karenFeriz,
     name: "Dra. Karen Feriz",
-    occupation: "Médica internista y endocrinóloga",
+    occupation: "Médica Internista y Endocrinóloga",
     description:
       "Jefe del Servicio de Endocrinología Fundación Valle de Lili Hospital Universitario. Docente posgrado Endocrinología, docente posgrado Medicina Interna, Universidad ICESI.\n Ex coordinadora comité Nacional Diabetes. Asociación Colombiana de Endocrinología, Diabetes y Metabolismo.",
   },
   {
     photo: carlosSanchez,
     name: "Dr. Carlos Sánchez Vallejo",
-    occupation: "Médico internista y cardiólogo",
+    occupation: "Médico Internista y Cardiólogo",
     description:
       "Especialista en medicina interna y cardiología de adultos de la Universidad El Bosque. Magister en Epidemiología. Cardiólogo clínico institucional en la Fundación Santa Fe de Bogotá. Fellow de la Sociedad Europea de Cardiología.",
   },
@@ -42,56 +42,56 @@ const speakersData = [
   {
     photo: SalomoonDaguer,
     name: "Dr. Salomón Daguer",
-    occupation: "Médico cirujano",
+    occupation: "Médico Endocrinólogo",
     description:
       "Médico internista y endocrinólogo de la Universidad Pontificia Bolivariana (UPB). SURA EPS. Clínica el campestre. Asesor científico Comfama. Docente Universidad Pontificia Bolivariana (UPB).",
   },
   {
     photo: JonthFlechas,
     name: "Dr. Jonth Flechas",
-    occupation: "Médico internista y cirujano",
+    occupation: "Médico Internista y Nefrólogo",
     description:
       "Especialista Nefrología Fundación Universitaria Ciencias de la Salud.\nMagister Gerencia servicios de salud Universidad Nacional de Colombia.\nNefrólogo clínico y del grupo de trasplante renal Fundación Clínica Shaio.\nDocente adscrito programa nefrología FUCS, Médico Clínica cuidado renal Dávita Hospital San José Bogotá.",
   },
   {
     photo: GilbertoCastillo,
     name: "Dr. Gilberto Castillo",
-    occupation: "Médico internista y cardiólogo",
+    occupation: "Médico Internista y Cardiólogo",
     description:
       "Ex vicepresidente de la Sociedad Colombiana de Cardiología. Director científico de Cardioprevent IPS. Coordinador Médico de la Unidad Cardiovascular de la Clínica Imbanaco. Certificado en life coach y coach de salud por TISOC. Conferencista, coach y mentor de bienestar y felicidad.",
   },
   {
     photo: MauricioMejiia,
     name: "Dr. Mauricio Mejía",
-    occupation: "Médico y rehabilitador deportivo",
+    occupation: "Médico y Rehabilitador Deportivo",
     description:
       "Especialista en medicina del deporte. Jefe y fundador del servicio de medicina deportiva y rehabilitación enfermedades inmunomediadas Clínica los nogales, Bogotá. Jefe del departamento Médico de carrera ultradistancia Desert Marathon, Guajira, Colombia.",
   },
   {
     photo: JuanEstebanGomez,
     name: "Dr. Juan Esteban Gómez",
-    occupation: "Médico cardiólogo",
+    occupation: "Médico Cardiólogo",
     description:
       "Jefe de Cardiología de la Fundación Valle del Lili, Cali, Colombia. Director del Departamento de Investigación de la Sociedad Colombiana de Cardiología. Director del Centro de Investigación de la Sociedad Interamericana de Cardiología. Docente de pregrado y postgrado. Universidad Icesi, Cali, Colombia.",
   },
   {
     photo: fernandoRoseroMera,
     name: "Dr. Fernando Rosero Mera",
-    occupation: "Médico y cirujano",
+    occupation: "Médico Sexólogo Clínico",
     description:
       "Especialista en salud sexual y sexología Clínica, Universidad de Barcelona.\n Especialista en Medicina Sexual y Sexología Clínica, Clínicas de Marly, Bogotá, Colombia. \n Expresidente de la Asociación Colombiana de Salud Sexual (ACSEX). Docente universitario.",
   },
   {
     photo: kateirContreras,
     name: "Dra. Kateir Contreras",
-    occupation: "Médica internista y nefróloga",
+    occupation: "Médica Internista y Nefróloga",
     description:
       "Magíster en educación para profesionales de la salud. Coordinadora del postgrado en Nefrología de la Pontificia Universidad Javeriana. Jefe unidad de Nefrología, Hospital Universitario San Ignacio.\n Profesora Asociada, Universidad Nacional de Colombia.",
   },
   {
     photo: vivianaQuintero,
     name: "Dra. Viviana Quintero",
-    occupation: "Médica internista y cardióloga",
+    occupation: "Médica Internista y Cardióloga",
     description:
       "Universidad CES, Medellín. Médico Cirujano, Universidad del Valle. Cardióloga, Clínica El Rosario de Medellín. Profesor Instructor del postgrado de Cardiología Clínica y Medicina de Urgencias, Universidad CES de Medellín.",
   },
